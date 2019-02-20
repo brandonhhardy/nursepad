@@ -1,0 +1,9 @@
+{
+    "comment": "Auto generated file. Manual changes will be overwritten.",
+    "immediateAssets": {
+        "anyline/module_debit_card/debitcard.ale": "7791facff237562713904635399565de"
+    },
+    "lazyAssets": {
+        "anyline/module_debit_card/tessdata/OcrB.traineddata": "01f1f7812593cf582a7f35a41f386ad2"
+    }
+}

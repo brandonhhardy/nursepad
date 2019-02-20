@@ -1,0 +1,9 @@
+{
+    "comment": "Auto generated file. Manual changes will be overwritten.",
+    "immediateAssets": {
+        "anyline/module_mrz/mrz_scanning.ale": "e4fcc55eda2a177c999fc9288c673be4"
+    },
+    "lazyAssets": {
+        "anyline/module_mrz/tessdata/OcrB.traineddata": "954e18b4defb4a08a5423203f727b227"
+    }
+}

@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="msapplication-tap-highlight" content="no" />
+	<!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<title>NursePad</title>
+
+	<link rel="stylesheet" href="lib/css/font-awesome.min.css">
+	<link rel="stylesheet" href="lib/css/materialize.min.css" />
+	<link rel="stylesheet" type="text/css" href="css/styles.css" />
+</head>
+<body>
+
+	<!-- Navigation Bar -->
+	<nav id="navbar" class="blue">
+		<div class="nav-wrapper">
+			<a href="javascript:void(0);" class="brand-logo"></a>
+			<a href="#" data-activates="right-menu" class="button-collapse"><i class="fa fa-bars" aria-hidden="true"></i></a>
+			<ul class="right hide-on-med-and-down" id="navbar-menu">
+				<!-- Navbar buttons will be placed here -->
+			</ul>
+			<ul class="side-nav" id="right-menu">
+				<header class="header blue">
+					<div class="row">
+						<div class="col s4">
+							<div class="avatar">
+								<i class="fa fa-user"></i>
+							</div>
+						</div>
+						<div class="col s8">
+							<span class="title has-subtitle">Brandon Hardy</span>
+						</div>
+					</div>
+					<span class="pull-left">Menu</span>
+					<span class="pull-right">
+						<i class="fa fa-chevron-down"></i>
+					</span>
+				</header>
+				<li><a href="javascript:Router.go('/schedule')"><i class="fa fa-clock-o"></i>Schedule</a></li>
+				<li><a href="javascript:Router.go('/history')"><i class="fa fa-history"></i>History</a></li>
+				<li><a href="javascript:Router.go('/help')"><i class="fa fa-question-circle-o"></i>Help</a></li>
+				<li><a href="javascript:Router.go('/logout')"><i class="fa fa-sign-out"></i>Logout</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!-- End of Navigation Bar -->
+
+	<!-- Views will be rendered here -->
+	<div id="app-view"></div>
+
+	<!-- Views -->
+	<template name="login">
+		<div class="login-page-background"></div>
+		<div class="container">
+			<div class="row">
+				<form id="login">
+					<div class="col s12 title">
+						<i id="status" class="fa fa-heartbeat"></i>
+						<h1>NursePad</h1>
+					</div>
+
+					<div class="input-field col s12">
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						<input type="text" name="email" class="validate" placeholder="Email Address">
+					</div>
+
+					<div class="input-field col s12">
+						<i class="fa fa-lock" aria-hidden="true"></i>
+						<input type="password" name="password" class="validate" placeholder="Password">
+					</div>
+
+					<div class="col s12">
+						<button type="submit" class="waves-effect waves-light btn blue">Login</button>
+						<a href="javascript:Router.go('/help', {secure: 1})" class="waves-effect waves-light btn grey darken-3">Can't login?</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</template>
+	<template name="patients">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<ul id="patients" class="list">
+						<!-- Patients -->
+					</ul>
+				</div>
+			</div>
+		</div>
+	</template>
+	<template name="patient">
+		<div class="container">
+			<div class="row" style="margin-bottom: 0;">
+				<div class="col s12">
+					<ul id="header" class="list">
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--<div id="maps">
+			<a id="open-maps" class="btn-floating btn-large waves-effect waves-light pull-right blue"><i class="fa fa-car"></i></a>
+		</div>-->
+		<div class="container-fluid grey lighten-2">
+			<div class="row">
+				<div class="container grey lighten-2">
+					<div class="row">
+						<div class="col s12">
+							<h3 class="list-header">About</h3>
+							<ul id="secure" class="list">
+
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</template>
+	<template name="create-booking">
+		<div class="container">
+			<form id="create-booking">
+				<div class="row">
+					<div class="col s6">
+						Date:
+					</div>
+					<div class="col s6">
+						<input type="date" name="date" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s6">Time:</div>
+					<div class="col s6">
+						<input type="time" name="time" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s6">Patient:</div>
+					<div class="input-field col s6">
+						<select id="patients" name="patient">
+
+						</select>
+						<label>Choose patient</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col s6">Recurring:</div>
+					<div class="col s6">
+						<input type="checkbox" id="recurring" class="filled-in" name="recurring" />
+						<label for="recurring"></label>
+					</div>
+				</div>
+
+				<br/>
+
+				<div class="row">
+					<div class="col s12">
+						<button class="btn-large waves-effect waves-light wide blue" type="submit">SAVE BOOKING</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</template>
+	<template name="schedule">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<h3 class="list-header">Today</h3>
+					<ul id="today" class="list">
+
+					</ul>
+					<h3 class="list-header">Tomorrow</h3>
+					<ul id="tomorrow" class="list">
+
+					</ul>
+					<h3 class="list-header">Other</h3>
+					<ul id="other" class="list">
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</template>
+	<template name="booking">
+		<div class="container">
+			<div class="row" style="margin-bottom: 0;">
+				<div class="col s12">
+					<ul id="header" class="list">
+
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="maps">
+			<img />
+			<a class="btn-floating btn-large waves-effect waves-light pull-right blue"><i class="fa fa-car"></i></a>
+		</div>
+		<div class="container-fluid grey lighten-2">
+			<div class="row">
+				<div class="container grey lighten-2">
+					<div class="row">
+						<div class="col s12">
+							<h3 class="list-header">Options</h3>
+							<ul id="secure" class="list">
+								<li id="call" class="list-item">
+									<a href="">
+										<div class="row">
+											<div class="col s2">
+												<div class="avatar"><i class="fa fa-phone"></i></div>
+											</div>
+											<div class="col s10">
+												<span class="title has-subtitle text-capitalize">Call Patient</span>
+												<span class="subtitle"></span></div>
+										</div>
+									</a>
+								</li>
+								<li id="details" class="list-item">
+									<div class="row">
+										<div class="col s2">
+											<div class="avatar"><i class="fa fa-home"></i></div>
+										</div>
+										<div class="col s10"><span class="title text-capitalize">Patient Details</span>
+										</div>
+									</div>
+								</li>
+								<li id="file" class="list-item">
+									<div class="row">
+										<div class="col s2">
+											<div class="avatar"><i class="fa fa-folder"></i></div>
+										</div>
+										<div class="col s10">
+											<span class="title has-subtitle text-capitalize">Patient File</span>
+											<span class="subtitle">Security Protected</span></div>
+									</div>
+								</li>
+								<li class="list-item">
+									<div class="row">
+										<div class="col s2">
+											<div class="avatar"><i class="fa fa-sticky-note-o"></i></div>
+										</div>
+										<div class="col s10"><span class="title text-capitalize">Feedback</span></div>
+										<div class="input-field col s12">
+											<textarea id="feedback" class="materialize-textarea" placeholder="Enter feedback"></textarea>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</template>
+	<template name="help">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<div class="faq-items">
+						<br/>
+						<ul class="collapsible popout" data-collapsible="accordion">
+							<li>
+								<div class="collapsible-header"><i class="fa fa-sign-in fa-2x"></i>How do i login?</div>
+								<div class="collapsible-body">
+									<p>To login navigate to the <a href="#/login">Login</a> page and enter your account credentials.</p>
+								</div>
+							</li>
+							<li>
+								<div class="collapsible-header"><i class="fa fa-user-plus fa-2x"></i>How do i sign up?</div>
+								<div class="collapsible-body">
+									<p>Accounts will be setup by your organisation and provided for you. For security purposes
+									no account creating is allowed from the mobile application itself.</p>
+								</div>
+							</li>
+							<li>
+								<div class="collapsible-header"><i class="fa fa-book fa-2x" ></i>Booking an appointment?</div>
+								<div class="collapsible-body">
+									<p>To add a new booking to your schedule, navigate to the <a href="#/schedule">Schedule</a>
+									page and in the navigation bar, tap the "ADD BOOKING" button.
+									<br/>
+									Alternatively you can proceed straight to adding a booking by tapping <a href="#/bookings/create">here</a>.</p>
+								</div>
+							</li>
+							<li>
+								<div class="collapsible-header"><i class="fa fa-barcode fa-2x"></i>How do i clock in?</div>
+								<div class="collapsible-body">
+									<p>Whilst viewing a booking you can tap the "CLOCK IN" button in the navigation bar.
+									A QR scanner will open and you will need to aim the camera at the patients QR code.</p>
+								</div>
+							</li>
+							<li>
+							<li>
+								<div class="collapsible-header"><i class="fa fa-map-marker fa-2x"></i>Want directions?</div>
+								<div class="collapsible-body">
+									<p>Directions to a patients address is not handled by this mobile application directly
+									but rather this mobile application will open your mapping software of choice with the
+									address of the patient.
+										<br/>This can be accomplished when viewing a booking and tapping
+										the car button which overlays the map.</p>
+								</div>
+							</li>
+							<li>
+								<div class="collapsible-header"><i class="fa fa-comment fa-2x"></i>How do i leave feedback?</div>
+								<div class="collapsible-body">
+									<p>You will be able to leave feedback on a booking when viewing it by scrolling to the
+									bottom of the booking screen and entering your feedback into the text input.</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="return" class="row" style="display: none">
+				<div class="col s12">
+					<a href="#/" class="btn-large waves-effect waves-light wide blue">BACK TO LOGIN</a>
+				</div>
+			</div>
+		</div>
+	</template>
+	<template name="history">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<ul id="past" class="list">
+
+					</ul>
+				</div>
+			</div>
+		</div>
+	</template>
+	<!-- End of Views -->
+
+
+	<!-- Libraries -->
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="lib/js/jquery-2.1.1.min.js"></script>
+	<script type='application/javascript' src='lib/js/fastclick.js'></script>
+	<script type="text/javascript" src="lib/js/jquery.mockjax.js"></script>
+	<script type="text/javascript" src="lib/js/materialize.min.js"></script>
+	<script type="text/javascript" src="lib/js/aes.js"></script>
+	<script type="text/javascript" src="lib/js/aes-ctr.js"></script>
+	<script type="text/javascript" src="lib/js/moment.js"></script>
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/Utils.js"></script>
+	<script type="text/javascript" src="js/Router.js"></script>
+	<script type="text/javascript" src="js/Pocket.js"></script>
+	<script type="text/javascript" src="js/Patient.js"></script>
+    <script type="text/javascript" src="js/help.js"></script>
+
+	<!-- AJAX Mocking -->
+	<script type="text/javascript" src="js/mocking/Server.js"></script>
+
+		<!-- Controllers -->
+	<script type="text/javascript" src="js/controllers/Login.js"></script>
+	<script type="text/javascript" src="js/controllers/Logout.js"></script>
+	<script type="text/javascript" src="js/controllers/CreateBooking.js"></script>
+	<script type="text/javascript" src="js/controllers/Schedule.js"></script>
+	<script type="text/javascript" src="js/controllers/Booking.js"></script>
+    <script type="text/javascript" src="js/controllers/Help.js"></script>
+    <script type="text/javascript" src="js/controllers/History.js"></script>
+		<!-- End Controllers -->
+	<script type="text/javascript" src="js/application.js"></script>
+
+
+</body>
+</html>

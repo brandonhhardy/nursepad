@@ -1,0 +1,20 @@
+{
+    "comment": "Auto generated file. Manual changes will be overwritten.",
+    "immediateAssets": {
+        "anyline/module_energy/digital_heat_meter.ale": "3d08d248bf3f311c351f745883703a17",
+        "anyline/module_energy/digital_meter.ale": "9f4efa701be7f4560af90e58b8bc09f6",
+        "anyline/module_energy/digital_meter_big_testing.ale": "c9dcd8eee6aa4d7051c36248d679bb01",
+        "anyline/module_energy/energy_electric_meter_select_digit_count.ale": "bed72d83a4039f2470bb3cf1fd2e4f17",
+        "anyline/module_energy/energy_meter.ale": "e3402cb72531a8b08ca01dffe2a2d75c",
+        "anyline/module_energy/energy_serial.ale": "3e22b70d6a6299cedbc2caacae25d722",
+        "anyline/module_energy/patternMulti9AndE.json": "aef42e1408607d7858cd48fcadc737a8",
+        "anyline/module_energy/prefix_five.png": "0dd9f7f3404460e91b2b8843a9c01428",
+        "anyline/module_energy/smart_meter_ger.ale": "86a5a34305c9e063672546ac40a2e14c",
+        "anyline/module_energy/smart_meter_ger_spec.json": "5f17ac9d0a3745efad8dc09b588a4fc5",
+        "anyline/module_energy/water_meter_black.ale": "a0254fbd291114435706e3e0e86bec5e",
+        "anyline/module_energy/water_meter_white.ale": "47b09c05336d9db81219b17e133db722"
+    },
+    "lazyAssets": {
+        "anyline/module_energy/tessdata/anyline.traineddata": "47fd7b1f5bd0d2d69b65d915bb77d51a"
+    }
+}

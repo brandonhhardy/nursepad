@@ -1,0 +1,556 @@
+Manifest-Version: 1.0
+Built-By: 1.5.0
+Created-By: Android Gradle 1.5.0
+
+Name: assets/www/lib/fonts/roboto/Roboto-Thin.eot
+SHA1-Digest: B5ClGoSNvnKSyY+dBFkhi/Go/90=
+
+Name: lib/armeabi-v7a/libgnustl_shared.so
+SHA1-Digest: zRXE7YSN+UY+q1+crtYQBfOIb2k=
+
+Name: assets/www/lib/js/aes-ctr.js
+SHA1-Digest: y8XdvhkMo+7HQJlUrHaMw9rNZMo=
+
+Name: assets/www/js/controllers/History.js
+SHA1-Digest: ubkUq642a3AYKFhyKNVFIB6EQeM=
+
+Name: res/xml/config.xml
+SHA1-Digest: Z9yt/5CLnJERuTiz3w1kLLsxr6s=
+
+Name: res/drawable-port-xhdpi-v4/screen.png
+SHA1-Digest: vFPeQjaqLAS6sZilCZUrPyl6jrw=
+
+Name: assets/www/img/qr_id_2.png
+SHA1-Digest: DNQnPMW5Nk0aJxAjV2t++KSbMtA=
+
+Name: assets/www/lib/js/fastclick.js
+SHA1-Digest: Bs7xlnM6cQ53rX44bO1pY/CS3FU=
+
+Name: assets/anyline/module_energy/digital_meter.ale
+SHA1-Digest: XWy7d8dHq5rP2yQSCjcJc8FoGXo=
+
+Name: assets/anyline/module_energy/patternMulti9AndE.json
+SHA1-Digest: AiAe0SkK5B6gw0FthSVQ5LAidOU=
+
+Name: assets/www/js/controllers/Patients.js
+SHA1-Digest: ePzkhDoH3fjVXbLZ8tnOmzogZMU=
+
+Name: lib/x86/libgnustl_shared.so
+SHA1-Digest: NNT6NqjRmH5sHU6O3a7cfYPTJh4=
+
+Name: assets/www/js/mocking/Server.js
+SHA1-Digest: JjF4lJMefOVvwj/NfZCleWZh4aM=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Thin.woff2
+SHA1-Digest: JEnj2sXdt8Pai7B0UEk7YtBSdYw=
+
+Name: assets/anyline/threshold_all.ale
+SHA1-Digest: ctSGxN1DgNFx5LFWtUkbsYdOHIQ=
+
+Name: lib/x86/libopencv_java.so
+SHA1-Digest: enGDLe4sRUrnvWBLkN/TxzcejEA=
+
+Name: assets/www/res/icon/windows-phone/icon-48.png
+SHA1-Digest: /1c1WqwknAo3ZhjYRyQ2LyB+aeE=
+
+Name: assets/www/img/qr_id_1.png
+SHA1-Digest: cT9LgRt+RK/w1UkjyAWZMD7SWss=
+
+Name: assets/www/res/screen/ios/screen-ipad-portrait-2x.png
+SHA1-Digest: 1FhnAAV6D+RAw6FOngkfDX0z64w=
+
+Name: res/drawable-hdpi-v4/icon.png
+SHA1-Digest: YGAHA9GW3f2MFE8JIGI1a/w/dCM=
+
+Name: assets/www/img/qr_id_4.png
+SHA1-Digest: FlUMB7xa27TLvMP+RP0rm+IeCNk=
+
+Name: res/drawable-land-hdpi-v4/screen.png
+SHA1-Digest: SnEeLBNJPYyr+znAdl3VZcz93hY=
+
+Name: assets/www/res/screen/android/screen-xhdpi-landscape.png
+SHA1-Digest: pjMrYfqeGoOudkSXuxlbRRF3grg=
+
+Name: assets/www/js/controllers/CreateBooking.js
+SHA1-Digest: vinvdFlvlY+70KBH6jNxybet8R8=
+
+Name: assets/www/lib/fonts/FontAwesome.otf
+SHA1-Digest: a+7C0gNo8+luqsNOTbOZG1B7Uak=
+
+Name: assets/www/res/icon/windows-phone/icon-62-tile.png
+SHA1-Digest: YYV5zgPPu/VLN7K6dNGxl9zLfnw=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Light.eot
+SHA1-Digest: Qv4VaZYZfl6wwCZMXRuztGgfRZU=
+
+Name: lib/x86/libopencv_info.so
+SHA1-Digest: Eo9nx39x3sJw1W1UqckSN9HOj1Q=
+
+Name: assets/www/lib/fonts/fontawesome-webfont.svg
+SHA1-Digest: frbvtRznZHzAB4d6CcqMeoj1jNs=
+
+Name: assets/www/res/screen/android/screen-ldpi-portrait.png
+SHA1-Digest: 2Ftqo9r5zKkcI3qnPxTJkjFwSf8=
+
+Name: assets/anyline/module_mrz/mrz_scanning.ale
+SHA1-Digest: gssL5RCgnqolue8qlepBgD5MIcg=
+
+Name: res/drawable-port-hdpi-v4/screen.png
+SHA1-Digest: QqszXVs7DAO7cpkZYgDYRx2o7mQ=
+
+Name: assets/www/res/screen/webos/screen-64.png
+SHA1-Digest: faR2/yKs/THFQcW7FxIlhFpUlq8=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Thin.ttf
+SHA1-Digest: Fz7WRSi00BCnbY043rHX5+7Vjto=
+
+Name: assets/www/cordova.js
+SHA1-Digest: IQ0e8hkCT3hHFKR4o1uEK3ee+IA=
+
+Name: assets/www/res/screen/android/screen-xhdpi-portrait.png
+SHA1-Digest: KnhkmAzL3Ko825McNLFJn7NGIQo=
+
+Name: assets/www/fonts/material-design-icons/Material-Design-Icons.svg
+SHA1-Digest: dX1UNn8N8Wp4N2nuwLqXT0K9fc4=
+
+Name: res/drawable-xxhdpi-v4/flash_icon_auto.png
+SHA1-Digest: 0GH1VXSneZf0t3bT5O8lOC+badk=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/MIT.LICENSE
+SHA1-Digest: RytFXTsJ+13ad9mFrElp/Si5Hws=
+
+Name: lib/armeabi-v7a/libanylineCore.so
+SHA1-Digest: 9lqlKc+5CR5PM681uLZQiLUn1AA=
+
+Name: res/drawable-land-mdpi-v4/screen.png
+SHA1-Digest: YVTonnvTeGj2Yhf0CYjFyC55TZE=
+
+Name: assets/www/cordova-js-src/plugin/android/app.js
+SHA1-Digest: f7p1rHw6kBqunadJYz5vUi7ZElM=
+
+Name: assets/www/res/icon/blackberry/icon-80.png
+SHA1-Digest: Av8v7iYWbDF1fHgk5+/A+UnFHDk=
+
+Name: assets/www/res/icon/ios/icon-72-2x.png
+SHA1-Digest: 1eDEUv0+e6DE2FsRHD4Kf2ZmxaQ=
+
+Name: assets/www/lib/js/aes.js
+SHA1-Digest: pehkPjvOU23WfbqtudkKsRiyo5w=
+
+Name: assets/www/res/screen/android/screen-ldpi-landscape.png
+SHA1-Digest: d+zBb5kM34RpsZlTO+/dXUBRlPU=
+
+Name: assets/www/cordova-js-src/android/nativeapiprovider.js
+SHA1-Digest: FVwW8q5pXNyqdiSUoAgfev5NTHs=
+
+Name: assets/www/js/Pocket.js
+SHA1-Digest: 9IL3nT1MDswxe/Zxy9zJy8At+tk=
+
+Name: assets/www/res/screen/ios/screen-ipad-landscape.png
+SHA1-Digest: u41qOSQvZ6RQwytqw2i91Hs5os8=
+
+Name: assets/anyline/module_debit_card/anyline_assets.json
+SHA1-Digest: SVbgX7yRhr+6FKYV1ghs7oiK+RA=
+
+Name: assets/www/res/screen/ios/screen-ipad-landscape-2x.png
+SHA1-Digest: fShharMxYr8ZL2If9gF++a8xEtQ=
+
+Name: assets/anyline/module_debit_card/debitcard.ale
+SHA1-Digest: OUIjlm3V8V1vUcQhP/YYN9v/jxU=
+
+Name: assets/anyline/module_energy/anyline_assets.json
+SHA1-Digest: mTP3rHdkgr1XTuAQkpre56xXRAc=
+
+Name: assets/anyline/module_energy/energy_meter.ale
+SHA1-Digest: OHqTMidCFuXKwSr79VGzUdp/dqI=
+
+Name: res/drawable-land-ldpi-v4/screen.png
+SHA1-Digest: ZfZgMgv6EzcmpS1oX2OZ+2L3Xg4=
+
+Name: resources.arsc
+SHA1-Digest: mRO/GxpWoZTGATzgp9AVRBEx/sE=
+
+Name: assets/www/res/screen/ios/screen-iphone-landscape.png
+SHA1-Digest: lRG6WUQDbkpZP7TgcGiJyz+ltHg=
+
+Name: assets/www/lib/js/jquery-2.1.1.min.js
+SHA1-Digest: r7kHUuCpDCS39yT6yobF89FdEXg=
+
+Name: AndroidManifest.xml
+SHA1-Digest: cE6j/FjsM9UC7Pqn89vAlX5lgNA=
+
+Name: assets/www/img/logo.png
+SHA1-Digest: aHSoKB2Y4F7+KipN+5gEjHUFqPk=
+
+Name: assets/www/res/screen/android/screen-mdpi-landscape.png
+SHA1-Digest: Ck9wmdrtfbDtt730I7YVKzMgAYk=
+
+Name: assets/www/res/icon/bada/icon-128.png
+SHA1-Digest: hXaw9m2A4BRGAzc1lsntJZ0Kosc=
+
+Name: assets/anyline/module_anyline_ocr/anyline_assets.json
+SHA1-Digest: EkcG5nd/FUI+dW0JGe+S6Qm9TGw=
+
+Name: assets/anyline/module_debit_card/tessdata/OcrB.traineddata
+SHA1-Digest: 6xGimJ3Vki6ABpBr8TKgMB1GpV0=
+
+Name: assets/anyline/module_energy/digital_meter_big_testing.ale
+SHA1-Digest: 9Ptk4OyHFUXhrwnmkbWqT/U1Hss=
+
+Name: assets/www/js/Utils.js
+SHA1-Digest: HxSZYEMWKZdGVvlW7Ddvh3INJO8=
+
+Name: assets/anyline/module_barcode/anyline_assets.json
+SHA1-Digest: IdbYqxTrbzw5QIOBGWx3w66/EJU=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Medium.woff2
+SHA1-Digest: bMG3NXGvnoJ8Tn6RQY9HZwPNTEs=
+
+Name: assets/www/fonts/material-design-icons/LICENSE.txt
+SHA1-Digest: VA5DrqmTraDJtLUK5YQ0lNi3zCg=
+
+Name: assets/www/res/screen/tizen/README.md
+SHA1-Digest: j9FACGOVHWUItR7LyCC+/fUkP2Y=
+
+Name: assets/anyline/sounds/anyline_assets.json
+SHA1-Digest: 40TYDZ9ff4bDBvqDVrRqkCV7F/w=
+
+Name: assets/www/res/screen/ios/screen-iphone-portrait.png
+SHA1-Digest: x9wjYkTBRYpX+XOwCMqMufZUL90=
+
+Name: lib/x86/libanylineCore.so
+SHA1-Digest: OnjaJfqWhX6CFHw408vLwjji1TY=
+
+Name: assets/www/res/screen/android/screen-mdpi-portrait.png
+SHA1-Digest: dyiI/oAd21ylRt1sesOWEZYBAvo=
+
+Name: classes.dex
+SHA1-Digest: Y7ahfogsj6ajAv2rFGotg99nZmE=
+
+Name: assets/www/cordova_plugins.js
+SHA1-Digest: kve/TeKKxsKlslNl/KoZfBTHtZA=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Bold.eot
+SHA1-Digest: p2zWAvUYi5+9S6dEPcucBk49vxA=
+
+Name: assets/www/cordova-js-src/exec.js
+SHA1-Digest: zC0fBe0s/SpGce1vXhhq+pTqaOU=
+
+Name: assets/www/res/icon/android/icon-48-mdpi.png
+SHA1-Digest: NEVdWqReVKTycZkNKHp0Ws6sOo0=
+
+Name: assets/anyline/module_anyline_ocr/anyline_ocr_line.ale
+SHA1-Digest: haRQ5OJmRAs9NhWrgGveoh4UCXA=
+
+Name: res/drawable-xxhdpi-v4/flash_icon_off.png
+SHA1-Digest: AorROLQrItypfmhTeUiiBeElCNM=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine.css
+SHA1-Digest: DjIgU9kCSPAtc8h6KJIq1kR9aaU=
+
+Name: assets/www/res/icon/android/icon-72-hdpi.png
+SHA1-Digest: 8w6WiTRFbzJ2vWJ7uXj/Wzkg+kM=
+
+Name: assets/www/js/Patient.js
+SHA1-Digest: 22I8RcUs4hWZvs6kXcZ5g7KDG18=
+
+Name: assets/www/res/icon/webos/icon-64.png
+SHA1-Digest: 0qKjqDMIZOdCqB1Hmh8VP4kDbJw=
+
+Name: assets/www/js/Router.js
+SHA1-Digest: EwjD5qKX9Uef0/71KEfKxkAqxjc=
+
+Name: res/drawable-xxhdpi-v4/flash_icon.png
+SHA1-Digest: X6RHbMOgpFODV7V3uy9m933gVww=
+
+Name: assets/www/res/icon/ios/icon-57.png
+SHA1-Digest: L7Yk7usECCqnvg21NAyMrREtWno=
+
+Name: assets/www/fonts/material-design-icons/Material-Design-Icons.wof
+ f2
+SHA1-Digest: ck29JURdEjOrEnCcB4S/6+w7IfM=
+
+Name: assets/www/fonts/material-design-icons/Material-Design-Icons.wof
+ f
+SHA1-Digest: 7ncYRVb3tm/LjulJb4GsYveS19w=
+
+Name: assets/www/res/screen/android/screen-hdpi-landscape.png
+SHA1-Digest: 2FMXKTuYdRdszhX7k98st8kIZmE=
+
+Name: assets/www/res/icon/bada-wac/icon-80-type4.png
+SHA1-Digest: RHY1TsvT2HavEOzpHbGuD8iHCsc=
+
+Name: assets/www/res/screen/bada-wac/screen-type3.png
+SHA1-Digest: x9wjYkTBRYpX+XOwCMqMufZUL90=
+
+Name: assets/anyline/module_energy/water_meter_white.ale
+SHA1-Digest: 1Ybs7jZ/iIV/CYEDr0kbDwjnOfI=
+
+Name: res/drawable-port-ldpi-v4/screen.png
+SHA1-Digest: 0xgQIHIbfOrpLeNb8Awy2KsX/rk=
+
+Name: assets/www/js/application.js
+SHA1-Digest: 4v5WfG/rjXiFPd9WbnqHf9W5Pvg=
+
+Name: lib/armeabi-v7a/libopencv_info.so
+SHA1-Digest: Nd2MsanknJouMXERx7SVuwy0sfE=
+
+Name: assets/anyline/module_document/anyline_assets.json
+SHA1-Digest: vx2/yT/JIK71ww3dTI3B0Q8Tje4=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Light.woff2
+SHA1-Digest: u9wouIdAD8s0C1BOwpBJk69Cpdc=
+
+Name: assets/anyline/module_energy/digital_heat_meter.ale
+SHA1-Digest: BJI94zB2okpx1SxpjPzoe+ZMsJs=
+
+Name: assets/www/res/icon/ios/icon-57-2x.png
+SHA1-Digest: lFWUc5MbBQ4TkR/QsH6UQqb3FtM=
+
+Name: assets/www/css/styles.css
+SHA1-Digest: /PHQ0cvTMmD2tcNivEds7j9NahM=
+
+Name: assets/anyline/module_energy/energy_serial.ale
+SHA1-Digest: 0cXqWngw3mz1Umckdnjfi6b35Ok=
+
+Name: assets/www/js/controllers/Patient.js
+SHA1-Digest: v9Ade7Rkml7WWg581xKP0AYhdj0=
+
+Name: assets/www/lib/js/moment.js
+SHA1-Digest: /K6Tez7G3J53hwrs6u05/ZHkpzg=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Thin.woff
+SHA1-Digest: +8PnHUVslmZ9gIKrkQ45Ru+JJAs=
+
+Name: assets/www/cordova-js-src/android/promptbasednativeapi.js
+SHA1-Digest: WY63KRIwUfBJT7ADJajHaAGlUMA=
+
+Name: res/drawable-xxhdpi-v4/anyline_logo_white.png
+SHA1-Digest: NnNh5iyM9u4Tm15FozcuZZhOeks=
+
+Name: assets/www/spec.html
+SHA1-Digest: ugXj2Mws5+bupmaFUxefslRs6Pk=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Bold.ttf
+SHA1-Digest: RzJ98PNefNfIZFh0iXp0SWl1RK4=
+
+Name: assets/www/lib/css/materialize.min.css
+SHA1-Digest: iaKqGVySYSti341R15g4TsUNopI=
+
+Name: assets/www/js/controllers/Schedule.js
+SHA1-Digest: tzcthFLi8MIB4al76KJ4Pu5bzao=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Regular.woff
+SHA1-Digest: dHNN3o2U5yaBcPm5lN7fvctbOhU=
+
+Name: res/drawable-land-xhdpi-v4/screen.png
+SHA1-Digest: Eme1m+KzdcxmzKWK1Sn3tLqwBxk=
+
+Name: assets/www/res/icon/android/icon-96-xhdpi.png
+SHA1-Digest: 5+SwDCnYbvoibwVLzytinuYHHKY=
+
+Name: assets/www/res/icon/tizen/icon-128.png
+SHA1-Digest: g+kxwSaoAuTn5iJW6S3bhzKFfKk=
+
+Name: assets/anyline/module_barcode/ean.ale
+SHA1-Digest: z+qlsFQcxdakd+N/RMjUUYsKHzU=
+
+Name: assets/www/lib/js/jquery.mockjax.js
+SHA1-Digest: miTPMXnB+LNmYZjBIIYuYWu6Av0=
+
+Name: assets/www/res/screen/bada-wac/screen-type4.png
+SHA1-Digest: gJA3nPLfWx9XWbz5wiBOUJKL76g=
+
+Name: assets/www/lib/css/font-awesome.min.css
+SHA1-Digest: 2gdXH1MYi76grNltd0rDi49ODkI=
+
+Name: assets/www/res/icon/bada-wac/icon-48-type5.png
+SHA1-Digest: e2wcE4lw5s44x6In0lZOPgke8Zs=
+
+Name: assets/www/js/controllers/Logout.js
+SHA1-Digest: +Qfod0S23eefDCgKMAf6JiXDuhg=
+
+Name: assets/www/js/controllers/Login.js
+SHA1-Digest: ahV5lUZfYiUeDiP0hYgPO4wnIM4=
+
+Name: assets/www/res/screen/blackberry/screen-225.png
+SHA1-Digest: 3DDY3f9kpDAmHlfybPbVzMYBWNE=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Medium.ttf
+SHA1-Digest: YGDKcmuXYLdvfDR9zp0vof5C7JI=
+
+Name: assets/www/img/login_background.png
+SHA1-Digest: +kTPVkClvOtfU4M6Ucq60To0M5U=
+
+Name: assets/anyline/module_energy/energy_electric_meter_select_digit_
+ count.ale
+SHA1-Digest: 9+aVPCGHhG5VsUinbalDl43ltYI=
+
+Name: assets/www/index.html
+SHA1-Digest: Kdg1VTPkLxkus+SBqR7A45q1Ojs=
+
+Name: assets/www/spec/helper.js
+SHA1-Digest: y5Tfxnsc7GA289HJFXCZED1R5eE=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Regular.ttf
+SHA1-Digest: gktUgMl3qBZuF35TV9ExZMzEX0c=
+
+Name: assets/anyline/module_energy/smart_meter_ger_spec.json
+SHA1-Digest: CTi17EaEv25mENh7PgddUMQoZBg=
+
+Name: assets/anyline/module_energy/tessdata/anyline.traineddata
+SHA1-Digest: P+Zi2F8tGKOcVMtODK7AOLgVsiU=
+
+Name: res/drawable/flash_control_background.xml
+SHA1-Digest: 2goRxWU+jDVPkKgsOtI94dbSM6w=
+
+Name: assets/www/res/icon/android/icon-36-ldpi.png
+SHA1-Digest: gysoHN7H7pu6XS5AjgHcLFrTgtI=
+
+Name: res/drawable-mdpi-v4/icon.png
+SHA1-Digest: QCOHtziHCh8dz3ZwCylhNX6sSV8=
+
+Name: assets/anyline/module_document/document.ale
+SHA1-Digest: 3yIMrkWTlSIUf+NXVabvQ9qwUuI=
+
+Name: assets/www/cordova-js-src/platform.js
+SHA1-Digest: /mJ5H2qTR9Bi2LjUspEVgxlBB+g=
+
+Name: assets/anyline/sounds/beep.wav
+SHA1-Digest: CkG536aXcLm3sIstrni24Rq1Sro=
+
+Name: res/drawable-port-mdpi-v4/screen.png
+SHA1-Digest: xQF9FkF91ssL80U0ZZIBCcr9Qs0=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Bold.woff
+SHA1-Digest: 7pnNh6Waml1AksgyMrs+7GdUdCU=
+
+Name: lib/armeabi-v7a/libopencv_java.so
+SHA1-Digest: 5ajTtTMUuy+BmAwCJn+fnDMRdZU=
+
+Name: assets/www/fonts/material-design-icons/Material-Design-Icons.eot
+SHA1-Digest: /BvBM38zE+rUKyKmehQtTg01azo=
+
+Name: assets/www/res/screen/bada-wac/screen-type5.png
+SHA1-Digest: yFv0ZClnR83P/QXpM4jr+JUEUmk=
+
+Name: assets/anyline/module_mrz/anyline_assets.json
+SHA1-Digest: I8iWzvDPtcbCAWVDrk+nbmlVWTk=
+
+Name: assets/www/res/icon/bada-wac/icon-50-type3.png
+SHA1-Digest: 8SsoUTsqsCZZvaOTVE+gIPVa2nA=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine.js
+SHA1-Digest: UbuCXRtZstykBBa58lepG51icZw=
+
+Name: assets/anyline/module_energy/water_meter_black.ale
+SHA1-Digest: SCEtS5/pSQ7UKTXULUwYseqABOw=
+
+Name: assets/anyline/module_mrz/tessdata/OcrB.traineddata
+SHA1-Digest: f62Mehk81BGK8BnEOLWc4IUytto=
+
+Name: assets/www/res/screen/ios/screen-ipad-portrait.png
+SHA1-Digest: Fa2knHeOC1+63vxE8lJtar/rdg0=
+
+Name: assets/www/res/icon/ios/icon-72.png
+SHA1-Digest: DwK1U1oefENXF+bsLor/fdos5i8=
+
+Name: assets/anyline/module_energy/prefix_five.png
+SHA1-Digest: 1YkZ/bUeVM8xfFXoE/ie7kNFvUs=
+
+Name: assets/www/res/screen/ios/screen-iphone-portrait-2x.png
+SHA1-Digest: hpSSS56KkybsJuk3J8T7ENmladw=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Regular.eot
+SHA1-Digest: d64+mA7AOGPr4lh6jvnd/QaUHbA=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Regular.woff2
+SHA1-Digest: 7RVYsFQfXgHOSMfbFYg3G5kO7Bk=
+
+Name: assets/www/js/controllers/Help.js
+SHA1-Digest: sx3/aDjmZPPJXB33tBjneuV2hLo=
+
+Name: assets/www/res/screen/ios/screen-iphone-landscape-2x.png
+SHA1-Digest: 5ENi5rM4IAUJUmK6at6/AHnaQ7U=
+
+Name: assets/www/spec/index.js
+SHA1-Digest: sWcOtzba9MXGjogtEz1kLaPtK2s=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Light.woff
+SHA1-Digest: YwD2Wb6eg0qyY+/i+zxYHUix57I=
+
+Name: assets/www/res/screen/android/screen-hdpi-portrait.png
+SHA1-Digest: 1NDe1bi812bp4MVRS7LQ4v5xu+A=
+
+Name: assets/www/lib/fonts/fontawesome-webfont.eot
+SHA1-Digest: vTKUZv96aU6C07i/V4lEeAderKA=
+
+Name: assets/www/res/screen/ios/screen-iphone-portrait-568h-2x.png
+SHA1-Digest: eTKKsvb0na2nd/9NePitOiH5Xs8=
+
+Name: assets/www/lib/js/jquery.mockjax.min.js
+SHA1-Digest: N07E89B5eOfLGv1hNDQxcgnF8iw=
+
+Name: assets/anyline/module_anyline_ocr/anyline_ocr_grid.ale
+SHA1-Digest: ea17Pnsu9uAz8vudWRqc4ExYx5c=
+
+Name: assets/www/img/qr_id_3.png
+SHA1-Digest: n4ICgU8Os9HmIn7CwIysjfeA4Ak=
+
+Name: assets/www/icon.png
+SHA1-Digest: g+kxwSaoAuTn5iJW6S3bhzKFfKk=
+
+Name: assets/www/lib/fonts/fontawesome-webfont.woff
+SHA1-Digest: j9+SWgtVDNhGHewypXd2dsw6ryg=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Medium.eot
+SHA1-Digest: FRf0tuHF0OUZj5N1VyU6rI+rBBY=
+
+Name: assets/www/fonts/material-design-icons/Material-Design-Icons.ttf
+SHA1-Digest: LLZqxzotMq6NL4B/cF7/Jvz5MyM=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Bold.woff2
+SHA1-Digest: kzuGbQnCsIdwepjatks4iIZe65Y=
+
+Name: assets/www/lib/js/materialize.min.js
+SHA1-Digest: 33S7xc/mTHof/rOAHYQQqlDpoBE=
+
+Name: assets/anyline/module_energy/smart_meter_ger.ale
+SHA1-Digest: jInnLIXmbBIUHfsZeE26TcwCUdA=
+
+Name: assets/www/js/controllers/Booking.js
+SHA1-Digest: 80GrHVuP4BJClUUJK/5BpGJ4jjc=
+
+Name: res/drawable-xxhdpi-v4/icon.png
+SHA1-Digest: f+DFx+p6oNtatvmiPiqMb9nbsD4=
+
+Name: assets/www/lib/fonts/fontawesome-webfont.ttf
+SHA1-Digest: +pgqT9JcGRbRXlBFSo8KrwA0np4=
+
+Name: assets/www/lib/fonts/fontawesome-webfont.woff2
+SHA1-Digest: l3NX+Cgw9X+9rCSS3UIeXczkSho=
+
+Name: assets/www/res/screen/bada/screen-portrait.png
+SHA1-Digest: gJA3nPLfWx9XWbz5wiBOUJKL76g=
+
+Name: assets/www/res/icon/windows-phone/icon-173-tile.png
+SHA1-Digest: DQ9cvkXs15yc44V0/dW0uGfiJLs=
+
+Name: assets/www/js/help.js
+SHA1-Digest: fXRNe5eAtE/FB3ClSLse6w4BxRY=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Medium.woff
+SHA1-Digest: 1F+EkiExNkmJrWV4x6Bra0/CLDQ=
+
+Name: assets/www/spec/lib/jasmine-1.2.0/jasmine-html.js
+SHA1-Digest: HQvXPy78BuOZPFGkxsNvRiBM4YA=
+
+Name: assets/www/img/qr_id_0.png
+SHA1-Digest: Lhc06EWVKayAd6TCTYHDhypPPT0=
+
+Name: assets/www/res/screen/windows-phone/screen-portrait.jpg
+SHA1-Digest: 0IWw5eo1icr+orCRJfyZ1djRvzs=
+
+Name: assets/www/lib/fonts/roboto/Roboto-Light.ttf
+SHA1-Digest: 4yHBg+K3XuGYE4kre6yNfEEcuIo=
+

@@ -1,0 +1,10 @@
+{
+    "comment": "Auto generated file. Manual changes will be overwritten.",
+    "immediateAssets": {
+        "anyline/module_anyline_ocr/anyline_ocr_grid.ale": "941b5ee2f63dbd3a5c873a02044eeb32",
+        "anyline/module_anyline_ocr/anyline_ocr_line.ale": "eead2dab41567ada9bb9e9305d95db42"
+    },
+    "lazyAssets": {
+        
+    }
+}
